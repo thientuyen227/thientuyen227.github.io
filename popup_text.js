@@ -1,6 +1,6 @@
 a='+';
 b=0;
-c='Hello<br />'+
+c='Hello Tím<br />'+
 '---------------- <br />'+
 'Vậy là đã đồng ý rồi nha > < <br />'+
 'Anh có làm video tặng em'+
