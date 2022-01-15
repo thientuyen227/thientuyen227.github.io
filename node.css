@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    color: #0000FF;
+    background-image: url("hinh2.jpg");
+}
+.node{
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 34px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    animation: animationNode ease-in 28s;
+}
+.node__popup--text{
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 34px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    animation: animationNode ease-in 2s;
+}
+.node:hover{
+    opacity: 0.8;
+}
+.node+.node{
+    margin-left: 300px;
+}
+.node--yes{
+    background-color: rgb(26, 187, 66);
+}
+.node--no{
+    background-color: rgb(218, 14, 14);
+}
+.node--disable{
+    opacity: 1 !important;
+    cursor: default;
+}
+.node--text{
+    background-color: rgb(252, 252, 105);
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    width: 310px;
+    margin-left: 500px;
+    margin-top: 120px;
+}
+.node__popup__text--meet{
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 34px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    animation: animationNode ease-in 20s;
+}
+.node--meet{
+    background-color: rgb(8, 236, 8);
+    font-size: 20px !important;
+    text-align: center;
+    width: 300px !important;
+    margin-left: 700px !important;
+}
+@keyframes animationNodeMeet{
+
+}
+@keyframes animationNode{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
