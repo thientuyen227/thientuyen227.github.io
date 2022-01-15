@@ -34,7 +34,7 @@
     margin-top: 85px !important;
     margin-left: -140px;
     position: absolute;
-    animation: videoOpacity ease-in 1s;
+    animation: videoOpacity ease-in 7s;
 }
 @keyframes fadeIn{
     from{
